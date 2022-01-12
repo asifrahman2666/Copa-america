@@ -1,0 +1,45 @@
+main {
+    font-family: sans-serif;
+    margin: auto;
+    width: 1400px;
+    text-align: center;
+}
+
+.container {
+    background-color: blue;
+    margin: auto;
+    height: 677px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copa-text {
+    margin-left: 70px;
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+}
+
+.copa-img img {
+    width: 560px;
+    height: 430px;
+}
+
+.copa-img:hover {
+    transform: translate(50px, 50px) scale(0.6) rotate(5deg);
+    transition: transform 5s;
+
+
+}
+
+.btn {
+    text-decoration: none;
+    background-color: rgb(255, 0, 0);
+    padding: 10px 30px;
+    color: white;
+    font-weight: 500;
+    border: none;
+    font: size 20px;
+    border-radius: 20px;
+}
